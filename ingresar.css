@@ -89,7 +89,7 @@ header {
     background-color: #926f34;
 }
 
-footer {
+.footer-ingresar {
     display: flex;
     justify-content: space-between;
     align-items: center;

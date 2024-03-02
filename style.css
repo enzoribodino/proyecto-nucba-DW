@@ -23,6 +23,14 @@ nav{
     
 }
 
+nav svg {
+   display: none;
+}
+
+#toggle-menu{
+    display: none;
+}
+
 .ul__list {
     display: flex;
     flex-direction: row;
