@@ -156,6 +156,32 @@ footer{
     .iniciar-sesion{
         margin-bottom: 40px;
     }
+ 
+}
 
-    
+@media (max-width:500px) {
+
+    #hero__section{
+        height: 215px;
+    }
+
+
+    .hr  {
+        display: none;
+    }
+
+    .conteiner-form{
+        width:-100px ;
+        
+    }
+
+    .input-name input {
+        width: 200px;
+    }
+
+    .input-mensaje textarea {
+        width: 450px;
+    }
+
+
 }
