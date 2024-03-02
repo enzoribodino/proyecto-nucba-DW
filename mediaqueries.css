@@ -158,11 +158,21 @@ footer{
     }
  
 }
-
-@media (max-width:500px) {
+/* samsung note 10 */
+@media (max-width:412px) {
 
     #hero__section{
-        height: 215px;
+        height: 177px;
+        width: 100%;
+    }
+
+    #about img {
+        display: none;
+        
+    }
+
+    .card-descripcion{
+        flex-direction: column;
     }
 
 
@@ -176,11 +186,16 @@ footer{
     }
 
     .input-name input {
-        width: 200px;
+        width: 180px;
     }
 
     .input-mensaje textarea {
-        width: 450px;
+        width: 350px;
+    }
+
+    .footer-conteiner{
+        flex-direction: column;
+        gap: 30px;
     }
 
 
