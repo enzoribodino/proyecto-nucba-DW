@@ -159,7 +159,7 @@ footer{
  
 }
 /* samsung note 10 */
-@media (max-width:412px) {
+@media (max-width:500px) {
 
     #hero__section{
         height: 177px;
