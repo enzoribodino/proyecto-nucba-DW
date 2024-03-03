@@ -11,9 +11,11 @@ header {
     background-color:#213243;
     justify-content: space-around;
     height: 150px;
-    /* position: fixed; */
-    z-index: 0;
-    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    flex-wrap: wrap;   
+    
 }
 
 nav{
@@ -103,6 +105,8 @@ nav svg {
     width: 100%;
     height: 550px;
     flex-wrap: wrap;
+    margin-top: 150px;
+    
     
 }
 
